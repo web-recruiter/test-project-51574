@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel='stylesheet' href='/stylesheets/foundation.min.css' />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/seaff.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel="icon" type="image/png" href="/favicon.png">
+    <title><%= title %></title>
+  </head>
+    <h2 class="heading-txt">Install the Collection Filter App</h2>
+    <form action="/shopify_auth" method="GET">
+		  <div class="row">
+		    <div class="large-4 large-offset-4 columns">
+		      <div class="row collapse">
+		        <label>Type your store name here.</label>
+		        <div class="small-6 columns">
+		          <input type="text" placeholder="shopname" name="shop" />
+		        </div>
+		        <div class="small-6 columns">
+		          <span class="postfix">.myshopify.com</span>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="large-4 large-offset-4 columns">
+		    	<button type="submit" class="button">Submit</button>
+		    </div>
+		  </div>
+		</form>
+  </body>
+</html>

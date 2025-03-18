@@ -1,0 +1,9 @@
+{
+	"oauth": {
+		"api_key": "ad01d1e066f74cac",
+		"client_secret": "08fc6fb8aa58b875",
+		"redirect_uri": "https://collection-filters.herokuapp.com/access_token",
+		"scope": "read_themes,write_themes,write_customers,read_script_tags,write_script_tags,read_products,write_products"
+	},
+	"app_url": "https://collection-filters.herokuapp.com/"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "piko-app",
+  "version": "1.0.3",
+  "description": "This shopify app is main app of PIKO store with multiple advanced features to support shopify.",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.9.0",
+    "express-session": "^1.11.3",
+    "fast-csv": "^2.4.0",
+    "mongoose": "^4.7.2",
+    "mongoose-type-email": "~1.0.5",
+    "morgan": "~1.3.0",
+    "node-schedule": "^1.2.0",
+    "request": "^2.65.0",
+    "serve-favicon": "~2.1.3"
+  }
+}
